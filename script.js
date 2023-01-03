@@ -20,7 +20,7 @@ function reloadgame(){
 }
 function maincheck(){
     inputnum = document.getElementById('guessid').value
-    if(initialnumber!=0){
+    
         if(inputnum<randomnumber){
             document.getElementById('sc').innerText = 'Guess higher Number'
             initialnumber--
@@ -41,6 +41,6 @@ function maincheck(){
             initialnumber--
             document.querySelector('.score').innerText = initialnumber
         }
-    }
+    
 }
 
